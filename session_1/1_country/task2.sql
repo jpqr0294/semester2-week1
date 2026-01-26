@@ -12,3 +12,6 @@
 
 -- write your sql code here
 
+-- 1: SELECT Country From countries ORDER BY Population DESC LIMIT 10
+
+SELECT 
