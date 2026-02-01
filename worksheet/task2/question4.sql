@@ -2,6 +2,8 @@
 -- Expected Columns:
 -- StudentId, FirstName, LastName, CourseName
 
+-- JPQR0294 Finley Schofield
+
 SELECT S.StudentId, FirstName, LastName, CourseName
 From Student S
 JOIN Enrolment ON S.StudentId=Enrolment.StudentId

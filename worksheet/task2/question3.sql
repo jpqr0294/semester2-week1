@@ -2,6 +2,8 @@
 -- Expected Columns:
 -- DepartmentName, TotalEnrolments
 
+-- JPQR0294 Finley Schofield
+
 Select DepartmentName, Count(*) As TotalEnrolments
 FROM Department
 Join Course ON Department.DepartmentID=Course.DepartmentID

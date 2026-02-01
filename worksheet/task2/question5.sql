@@ -2,6 +2,8 @@
 -- Expected Columns:
 -- StudentId, FirstName, LastName, TotalCreditsPassed
 
+-- JPQR0294 Finley Schofield
+
 SELECT S.StudentId, FirstName, LastName, SUM(credits) As TotalCreditsPassed
 From student S
 JOIN Enrolment ON S.StudentID=Enrolment.StudentID
